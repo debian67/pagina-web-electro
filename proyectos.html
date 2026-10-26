@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos Realizados | CORPROELEC S.A.C</title>
+  <meta name="description" content="Conoce los proyectos electromecánicos que hemos ejecutado: subestaciones, montajes industriales, energía solar, automatización y mantenimiento.">
+  <meta name="theme-color" content="#0b2f6b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="paginas.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- ICONOS -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 32 32"><path fill="currentColor" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.55 4.2 1.6 6L4 29l8.2-1.6A12 12 0 0 0 16 27c6.6 0 12-5.4 12-12S22.600 3 16 3zm0 21.800a9.800 9.800 0 0 1-5-1.370l-.36-.21-3.770.72.740-3.670-.24-.38A9.780 9.780 0 0 1 6.200 15c0-5.420 4.400-9.800 9.800-9.800s9.800 4.380 9.800 9.800-4.400 9.800-9.800 9.800zm5.380-7.330c-.3-.15-1.750-.86-2.020-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.160-.17.2-.35.22-.64.07-.3-.15-1.250-.46-2.380-1.470-.88-.78-1.470-1.750-1.640-2.040-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.620-.92-2.220-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.040 1.020-1.040 2.480s1.070 2.880 1.220 3.080c.15.2 2.100 3.200 5.080 4.490.71.3 1.260.49 1.700.63.71.23 1.360.2 1.870.12.57-.08 1.750-.72 2-1.410.25-.7.25-1.290.17-1.410-.07-.12-.27-.2-.57-.35z"/></symbol>
+  </svg>
+
+  <!-- BARRA SUPERIOR -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <ul class="topbar__list">
+        <li><svg class="icon"><use href="#i-pin"/></svg> Campo Alegre C-7, Urb. San Jose, Ica, Ica.
+</li>
+        <li><svg class="icon"><use href="#i-clock"/></svg> Lun - Vie: 8:00 - 18:00 | Sáb: 8:00 - 13:00</li>
+      </ul>
+      <ul class="topbar__list">
+        <li><a href="tel:+51 991 628 513"><svg class="icon"><use href="#i-phone"/></svg> +51 991 628 513</a></li>
+        <li><a href="mailto:ventas@corproelec.pe"><svg class="icon"><use href="#i-mail"/></svg> ventas@corproelec.pe</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ENCABEZADO -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="Ir al inicio">
+        <span class="brand__mark"><svg class="icon"><use href="#i-bolt"/></svg></span>
+        <span class="brand__name">CORPROELEC S.A.C.<small>Electromecánicos S.A.C.</small></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Inicio</a></li>
+          <li><a href="index.html#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="index.html#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="productos.html" class="nav__link">Productos</a></li>
+          <li><a href="proyectos.html" class="nav__link is-active" aria-current="page">Proyectos</a></li>
+          <li><a href="index.html#faq" class="nav__link">Preguntas</a></li>
+          <li><a href="index.html#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <a href="index.html#contacto" class="btn btn--accent nav__cta">Cotizar proyecto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- BANNER DE LA PÁGINA (el id="inicio" es necesario para que funcione el JS) -->
+    <section class="page-hero" id="inicio">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a> <span>/</span> <span>Proyectos realizados</span>
+        </nav>
+        <p class="eyebrow">Portafolio</p>
+        <h1>Proyectos realizados</h1>
+        <p>Trabajos que respaldan nuestra experiencia. Haz clic en cualquier proyecto para ver sus detalles.</p>
+      </div>
+    </section>
+
+    <!-- GALERÍA DE PROYECTOS -->
+    <section class="section section--alt">
+      <div class="container">
+
+        <div class="filters" role="group" aria-label="Filtrar proyectos">
+          <button class="filter is-active" data-filter="all" type="button">Todos</button>
+          <button class="filter" data-filter="electrico" type="button">Eléctrico</button>
+          <button class="filter" data-filter="mecanico" type="button">Mecánico</button>
+          <button class="filter" data-filter="solar" type="button">Solar</button>
+          <button class="filter" data-filter="automatizacion" type="button">Automatización</button>
+          <button class="filter" data-filter="mantenimiento" type="button">Mantenimiento</button>
+        </div>
+
+        <!--
+          REEMPLAZAR por tus proyectos reales: cambia las imágenes y los data-* de cada bloque.
+          data-client = cliente, data-year = año, data-place = lugar, data-scope = alcance, data-desc = descripción.
+          Para agregar uno nuevo, copia un bloque <figure class="project"...> completo.
+        -->
+        <div class="grid grid--3 projects">
+
+          <figure class="project reveal" data-category="electrico" data-label="Eléctrico"
+            data-title="Subestación eléctrica industrial" data-client="Empresa industrial (reemplazar)" data-year="2024" data-place="Ciudad, Perú"
+            data-scope="Ingeniería · Suministro · Montaje · Pruebas"
+            data-desc="Construcción y puesta en marcha de una subestación en media tensión con celdas, transformador y sistema de puesta a tierra, cumpliendo la normativa vigente.">
+            <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1000&q=80" alt="Subestación eléctrica industrial" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Eléctrico</span><h3>Subestación eléctrica industrial</h3><p>2024 · Ver detalles +</p></figcaption>
+          </figure>
+
+          <figure class="project reveal" data-category="mecanico" data-label="Mecánico"
+            data-title="Montaje en planta industrial" data-client="Planta de producción (reemplazar)" data-year="2023" data-place="Ciudad, Perú"
+            data-scope="Montaje mecánico · Alineamiento · Puesta en marcha"
+            data-desc="Montaje de equipos, estructuras metálicas y tuberías de proceso para la ampliación de una planta, con control de calidad en cada etapa.">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1000&q=80" alt="Montaje mecánico en planta industrial" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Mecánico</span><h3>Montaje en planta industrial</h3><p>2023 · Ver detalles +</p></figcaption>
+          </figure>
+
+          <figure class="project reveal" data-category="solar" data-label="Solar"
+            data-title="Sistema solar fotovoltaico" data-client="Empresa agroindustrial (reemplazar)" data-year="2024" data-place="Ciudad, Perú"
+            data-scope="Diseño · Suministro · Instalación · Monitoreo"
+            data-desc="Instalación de un sistema fotovoltaico conectado a la red para reducir el consumo eléctrico y el costo de energía de la operación.">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1000&q=80" alt="Sistema solar fotovoltaico" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Solar</span><h3>Sistema solar fotovoltaico</h3><p>2024 · Ver detalles +</p></figcaption>
+          </figure>
+
+          <figure class="project reveal" data-category="automatizacion" data-label="Automatización"
+            data-title="Automatización de línea de producción" data-client="Fábrica (reemplazar)" data-year="2023" data-place="Ciudad, Perú"
+            data-scope="Programación PLC · Tableros de control · Variadores"
+            data-desc="Automatización de una línea de producción con PLC, variadores de frecuencia y supervisión, mejorando la continuidad y el control del proceso.">
+            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1000&q=80" alt="Línea de producción automatizada" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Automatización</span><h3>Automatización de línea de producción</h3><p>2023 · Ver detalles +</p></figcaption>
+          </figure>
+
+          <figure class="project reveal" data-category="electrico" data-label="Eléctrico"
+            data-title="Tableros y red eléctrica industrial" data-client="Complejo industrial (reemplazar)" data-year="2022" data-place="Ciudad, Perú"
+            data-scope="Tableros · Cableado · Canalizaciones · Certificación"
+            data-desc="Fabricación e instalación de tableros eléctricos y redes de baja tensión para una nueva nave industrial, con pruebas y documentación final.">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80" alt="Tableros y red eléctrica industrial" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Eléctrico</span><h3>Tableros y red eléctrica industrial</h3><p>2022 · Ver detalles +</p></figcaption>
+          </figure>
+
+          <figure class="project reveal" data-category="mantenimiento" data-label="Mantenimiento"
+            data-title="Mantenimiento integral de planta" data-client="Planta industrial (reemplazar)" data-year="2024" data-place="Ciudad, Perú"
+            data-scope="Mantenimiento preventivo y correctivo · Soporte 24/7"
+            data-desc="Plan de mantenimiento preventivo y correctivo de motores, bombas y tableros para reducir paradas no programadas y extender la vida útil de los equipos.">
+            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1000&q=80" alt="Mantenimiento de equipos industriales" loading="lazy" width="1000" height="750">
+            <figcaption><span class="tag">Mantenimiento</span><h3>Mantenimiento integral de planta</h3><p>2024 · Ver detalles +</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- LLAMADO A LA ACCIÓN -->
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <div>
+          <h2>¿Tienes un proyecto en mente?</h2>
+          <p>Cuéntanos qué necesitas y te enviaremos una propuesta técnica y económica.</p>
+        </div>
+        <a href="index.html#contacto" class="btn btn--accent">Solicitar cotización <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <a href="index.html" class="brand brand--light">
+          <span class="brand__mark"><svg class="icon"><use href="#i-bolt"/></svg></span>
+          <span class="brand__name">CORPROELEC S.A.C.<small>Electromecánicos S.A.C.</small></span>
+        </a>
+        <p>Ingeniería, montaje y mantenimiento electromecánico con compromiso y seguridad.</p>
+      </div>
+      <nav class="footer__col" aria-label="Enlaces del pie">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a href="index.html#nosotros">Nosotros</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h3>Servicios</h3>
+        <ul>
+          <li>Instalaciones eléctricas</li>
+          <li>Montaje electromecánico</li>
+          <li>Mantenimiento industrial</li>
+          <li>Automatización</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>Contacto</h3>
+        <ul>
+          <li>Campo Alegre C-7, Urb. San Jose, Ica, Ica.</li>
+          <li><a href="tel:+51 991 628 513">+51 991 628 513</a></li>
+          <li><a href="mailto:ventas@corproelec.pe">ventas@corproelec.pe</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© <span id="year">2026</span> CORPROELEC S.A.C · RUC: 00000000000 · Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VENTANA DE DETALLE DEL PROYECTO -->
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <button class="modal__close" id="modalClose" type="button" aria-label="Cerrar">&times;</button>
+    <div class="modal__grid">
+      <img class="modal__img" id="modalImg" src="" alt="">
+      <div class="modal__body">
+        <span class="tag" id="modalCat"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+        <dl class="modal__meta">
+          <div><dt>Cliente</dt><dd id="modalClient"></dd></div>
+          <div><dt>Año</dt><dd id="modalYear"></dd></div>
+          <div><dt>Ubicación</dt><dd id="modalPlace"></dd></div>
+          <div><dt>Alcance</dt><dd id="modalScope"></dd></div>
+        </dl>
+        <a class="btn btn--accent" id="modalCta" href="#" target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg> Solicitar un proyecto similar</a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- WHATSAPP: GLOBO + BOTÓN FLOTANTE -->
+  <div class="wa" id="wa">
+    <div class="wa__bubble" id="waBubble" role="dialog" aria-label="Chat de WhatsApp">
+      <button class="wa__close" id="waClose" aria-label="Cerrar mensaje">&times;</button>
+      <p class="wa__title">CORPROELEC S.A.C</p>
+      <p class="wa__text">Hola, ¿en qué podemos ayudarte? Escríbenos y te atenderemos por WhatsApp.</p>
+      <a class="wa__cta" id="waCta" href="#" target="_blank" rel="noopener">Iniciar chat</a>
+    </div>
+    <a class="wa__btn" id="waBtn" href="#" target="_blank" rel="noopener" aria-label="Chatear por WhatsApp">
+      <svg class="icon"><use href="#i-whatsapp"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js" defer></script>
+  <script src="paginas.js" defer></script>
+</body>
+</html>
