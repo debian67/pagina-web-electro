@@ -175,3 +175,30 @@
   .shortcut { padding: 26px 20px; gap: 16px; }
   .modal__meta div { grid-template-columns: 1fr; gap: 2px; }
 }
+/* ---------- Corrección del menú en celular ---------- */
+@media (max-width: 860px) {
+  .header {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: #fff;
+  }
+  /* Al abrir el menú, el encabezado se fija arriba de la pantalla */
+  body.menu-open .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .brand,
+  .nav-toggle {
+    position: relative;
+    z-index: 95;
+  }
+  .nav {
+    top: 0;
+    bottom: 0;
+    z-index: 90;
+    padding-top: calc(var(--header-h) + 24px);
+    padding-bottom: 120px;   /* para llegar al botón aunque la barra de Safari tape */
+  }
+}
