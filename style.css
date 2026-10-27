@@ -459,3 +459,20 @@ h1, h2, h3 { font-family: var(--font-title); line-height: 1.2; }
     padding-top: calc(var(--header-h) + 24px);
     padding-bottom: 120px;   /* para llegar al botón aunque la barra de Safari tape */
   }
+  /* ---------- Logo ---------- */
+.brand__logo {
+  height: 120px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+/* En el pie de página (fondo azul oscuro) el logo se ve sobre un fondo blanco */
+.brand--light .brand__logo {
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+@media (max-width: 400px) {
+  .brand__logo { height: 40px; }
+}
