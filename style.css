@@ -490,7 +490,14 @@ h1, h2, h3 { font-family: var(--font-title); line-height: 1.2; }
 .hero__social a:hover { background: #fff; color: var(--blue-800); }
 
 @media (max-width: 720px) {
-  .hero__social { top: 16px; right: 16px; margin-top: 0; flex-direction: row; gap: 12px; }
-  .hero__social a { width: 54px; height: 54px; border-radius: 14px; }
-  .hero__social a .icon { width: 28px; height: 28px; }
+  /* Redes: en una fila, arriba a la derecha */
+  .hero__social {
+    top: 14px; right: 14px; margin-top: 0;
+    flex-direction: row; gap: 10px;
+  }
+  .hero__social a { width: 52px; height: 52px; border-radius: 14px; }
+  .hero__social a .icon { width: 26px; height: 26px; }
+
+  /* Deja espacio para que el texto no quede debajo de los iconos ni de los puntos */
+  .slide__content { padding-top: 84px; padding-bottom: 80px; }
 }
