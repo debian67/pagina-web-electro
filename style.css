@@ -440,3 +440,22 @@ h1, h2, h3 { font-family: var(--font-title); line-height: 1.2; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+  /* Al abrir el menú, el encabezado se fija arriba de la pantalla */
+  body.menu-open .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .brand,
+  .nav-toggle {
+    position: relative;
+    z-index: 95;
+  }
+  .nav {
+    top: 0;
+    bottom: 0;
+    z-index: 90;
+    padding-top: calc(var(--header-h) + 24px);
+    padding-bottom: 120px;   /* para llegar al botón aunque la barra de Safari tape */
+  }
